@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the vy med dateformat svenskt feature.
+ */
+
+include_once 'vy_med_dateformat_svenskt.features.inc';
