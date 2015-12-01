@@ -1,0 +1,12 @@
+name = myarticles_view
+core = 7.x
+package = Custom
+dependencies[] = strongarm
+dependencies[] = views
+features[ctools][] = strongarm:strongarm:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[variable][] = date_format_svenskt
+features[views_view][] = myarticles
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/features
